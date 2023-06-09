@@ -1,0 +1,80 @@
+.product-details {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.prod-img > img {
+    width: 400px;
+    display: inline;
+    padding: 1rem 2rem;
+}
+
+.prod-description {
+    padding: 2rem;
+    line-height: 1.5;
+}
+
+.prod-description > h1{
+    font-size: 2.7rem;
+    color: #73A9AD;
+    font-family: 'Roboto', sans-serif;  
+}
+
+.prod-description > p{
+    font-size: 1rem;
+    color: #3F4E4F;
+}
+
+.price {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.counter {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.counter > button {
+    padding: 6px 8px;
+    min-width: 2rem;
+    font-size: 1.1rem;
+    background-color: white;
+    border: 2px solid #73A9AD;
+}
+
+.buttons {
+    display: flex;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    gap: 2rem;
+    margin-top: 3rem;
+    font-family: 'Roboto', sans-serif;  
+}
+
+button {
+    cursor: pointer;
+}
+.buttons > button {
+    width: 40%;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+.addToCartBtn {
+    border: 3px solid #73A9AD;
+    color: #3F4E4F;
+}
+
+.buyNowBtn {
+    background-color: #73A9AD;
+    border: none;
+    color: #f1f1f1;
+}

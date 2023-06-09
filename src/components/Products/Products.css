@@ -1,0 +1,28 @@
+.products {
+    background-color: white;
+    margin: 0 9.5rem;
+    padding: 3rem 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.underline {
+    height: 0.6rem;
+    background: linear-gradient(to right, #6ECCAF, #569DAA);
+    width: 100%;
+}
+
+.product-heading {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.products-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    place-items: center;
+    grid-gap: 3rem;
+}

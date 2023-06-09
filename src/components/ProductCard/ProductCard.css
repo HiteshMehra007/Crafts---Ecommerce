@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;900&display=swap');
+
+.card {
+    width: 20vw;
+    padding: 1.5rem;
+    transition: all .3s;
+    cursor: pointer;
+    box-shadow: 0 0 10px #888888;
+}
+
+.card :hover {
+    transform: scale(1.05);
+}
+
+.card > p {
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+.card > button {
+    width: 70%;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    background-color: #73A9AD;
+    color: white;
+}
+
+.card-img {
+    width: 15rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,67 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    max-height: 15vh;
+
+    padding: 2rem 5rem;
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    position: fixed;
+    z-index: 2;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5rem;
+    gap: 2rem;
+    width: 20%;
+    scale: 1.5;
+}
+
+.icon-style {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.text {
+    font-size: 0.5rem;
+    color: black;
+}
+
+.login-icon {
+    background-color: gray;
+    border-radius: 50%;
+    color: white;
+    padding: 0.2rem 0.3rem;
+    scale: 0.9;
+}
+
+.shopping-cart {
+    position: relative;
+    padding: 8px;
+}
+
+.cart-item-number {
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    width: 10px;
+    height: 10px;
+    font-size: 0.5rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

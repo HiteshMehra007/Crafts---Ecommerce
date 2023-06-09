@@ -1,0 +1,10 @@
+.cart {
+    height: 100vh;
+    box-shadow: 0 0 10px #888888;
+    width: 25%;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: white;
+}
